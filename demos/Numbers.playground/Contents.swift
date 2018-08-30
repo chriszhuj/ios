@@ -3,5 +3,5 @@
 import Cocoa
 
 var str = "Hello, playground"
-str += "!"
-print(str)
+print(Int.max)
+print("The minimum Int value is \(Int.min)")
