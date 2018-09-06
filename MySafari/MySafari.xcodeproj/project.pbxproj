@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B119E0C52140FA4300290952 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B119E0C42140FA4300290952 /* AppDelegate.swift */; };
+		B119E0C72140FA4300290952 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B119E0C62140FA4300290952 /* ViewController.swift */; };
+		B119E0CA2140FA4300290952 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B119E0C82140FA4300290952 /* Main.storyboard */; };
+		B119E0CC2140FA4500290952 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B119E0CB2140FA4500290952 /* Assets.xcassets */; };
+		B119E0CF2140FA4500290952 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B119E0CD2140FA4500290952 /* LaunchScreen.storyboard */; };
+		B119E0DA2140FA4500290952 /* MySafariTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B119E0D92140FA4500290952 /* MySafariTests.swift */; };
+		B119E0E52140FA4500290952 /* MySafariUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B119E0E42140FA4500290952 /* MySafariUITests.swift */; };
+		B119E0F32140FB5500290952 /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B119E0F22140FB5500290952 /* HistoryTableViewController.swift */; };
+		B119E0F52140FB6E00290952 /* LikeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B119E0F42140FB6E00290952 /* LikeTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B119E0D62140FA4500290952 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B119E0B92140FA4300290952 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B119E0C02140FA4300290952;
+			remoteInfo = MySafari;
+		};
+		B119E0E12140FA4500290952 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B119E0B92140FA4300290952 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B119E0C02140FA4300290952;
+			remoteInfo = MySafari;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B119E0C12140FA4300290952 /* MySafari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySafari.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B119E0C42140FA4300290952 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B119E0C62140FA4300290952 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B119E0C92140FA4300290952 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B119E0CB2140FA4500290952 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B119E0CE2140FA4500290952 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B119E0D02140FA4500290952 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B119E0D52140FA4500290952 /* MySafariTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySafariTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B119E0D92140FA4500290952 /* MySafariTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySafariTests.swift; sourceTree = "<group>"; };
+		B119E0DB2140FA4500290952 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B119E0E02140FA4500290952 /* MySafariUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySafariUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B119E0E42140FA4500290952 /* MySafariUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySafariUITests.swift; sourceTree = "<group>"; };
+		B119E0E62140FA4500290952 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B119E0F22140FB5500290952 /* HistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
+		B119E0F42140FB6E00290952 /* LikeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B119E0BE2140FA4300290952 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B119E0D22140FA4500290952 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B119E0DD2140FA4500290952 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B119E0B82140FA4300290952 = {
+			isa = PBXGroup;
+			children = (
+				B119E0C32140FA4300290952 /* MySafari */,
+				B119E0D82140FA4500290952 /* MySafariTests */,
+				B119E0E32140FA4500290952 /* MySafariUITests */,
+				B119E0C22140FA4300290952 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B119E0C22140FA4300290952 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B119E0C12140FA4300290952 /* MySafari.app */,
+				B119E0D52140FA4500290952 /* MySafariTests.xctest */,
+				B119E0E02140FA4500290952 /* MySafariUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B119E0C32140FA4300290952 /* MySafari */ = {
+			isa = PBXGroup;
+			children = (
+				B119E0C42140FA4300290952 /* AppDelegate.swift */,
+				B119E0C62140FA4300290952 /* ViewController.swift */,
+				B119E0C82140FA4300290952 /* Main.storyboard */,
+				B119E0CB2140FA4500290952 /* Assets.xcassets */,
+				B119E0CD2140FA4500290952 /* LaunchScreen.storyboard */,
+				B119E0D02140FA4500290952 /* Info.plist */,
+				B119E0F22140FB5500290952 /* HistoryTableViewController.swift */,
+				B119E0F42140FB6E00290952 /* LikeTableViewController.swift */,
+			);
+			path = MySafari;
+			sourceTree = "<group>";
+		};
+		B119E0D82140FA4500290952 /* MySafariTests */ = {
+			isa = PBXGroup;
+			children = (
+				B119E0D92140FA4500290952 /* MySafariTests.swift */,
+				B119E0DB2140FA4500290952 /* Info.plist */,
+			);
+			path = MySafariTests;
+			sourceTree = "<group>";
+		};
+		B119E0E32140FA4500290952 /* MySafariUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B119E0E42140FA4500290952 /* MySafariUITests.swift */,
+				B119E0E62140FA4500290952 /* Info.plist */,
+			);
+			path = MySafariUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B119E0C02140FA4300290952 /* MySafari */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B119E0E92140FA4600290952 /* Build configuration list for PBXNativeTarget "MySafari" */;
+			buildPhases = (
+				B119E0BD2140FA4300290952 /* Sources */,
+				B119E0BE2140FA4300290952 /* Frameworks */,
+				B119E0BF2140FA4300290952 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySafari;
+			productName = MySafari;
+			productReference = B119E0C12140FA4300290952 /* MySafari.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B119E0D42140FA4500290952 /* MySafariTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B119E0EC2140FA4600290952 /* Build configuration list for PBXNativeTarget "MySafariTests" */;
+			buildPhases = (
+				B119E0D12140FA4500290952 /* Sources */,
+				B119E0D22140FA4500290952 /* Frameworks */,
+				B119E0D32140FA4500290952 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B119E0D72140FA4500290952 /* PBXTargetDependency */,
+			);
+			name = MySafariTests;
+			productName = MySafariTests;
+			productReference = B119E0D52140FA4500290952 /* MySafariTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B119E0DF2140FA4500290952 /* MySafariUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B119E0EF2140FA4600290952 /* Build configuration list for PBXNativeTarget "MySafariUITests" */;
+			buildPhases = (
+				B119E0DC2140FA4500290952 /* Sources */,
+				B119E0DD2140FA4500290952 /* Frameworks */,
+				B119E0DE2140FA4500290952 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B119E0E22140FA4500290952 /* PBXTargetDependency */,
+			);
+			name = MySafariUITests;
+			productName = MySafariUITests;
+			productReference = B119E0E02140FA4500290952 /* MySafariUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B119E0B92140FA4300290952 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = chrisz;
+				TargetAttributes = {
+					B119E0C02140FA4300290952 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					B119E0D42140FA4500290952 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = B119E0C02140FA4300290952;
+					};
+					B119E0DF2140FA4500290952 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = B119E0C02140FA4300290952;
+					};
+				};
+			};
+			buildConfigurationList = B119E0BC2140FA4300290952 /* Build configuration list for PBXProject "MySafari" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B119E0B82140FA4300290952;
+			productRefGroup = B119E0C22140FA4300290952 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B119E0C02140FA4300290952 /* MySafari */,
+				B119E0D42140FA4500290952 /* MySafariTests */,
+				B119E0DF2140FA4500290952 /* MySafariUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B119E0BF2140FA4300290952 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B119E0CF2140FA4500290952 /* LaunchScreen.storyboard in Resources */,
+				B119E0CC2140FA4500290952 /* Assets.xcassets in Resources */,
+				B119E0CA2140FA4300290952 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B119E0D32140FA4500290952 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B119E0DE2140FA4500290952 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B119E0BD2140FA4300290952 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B119E0F52140FB6E00290952 /* LikeTableViewController.swift in Sources */,
+				B119E0C72140FA4300290952 /* ViewController.swift in Sources */,
+				B119E0C52140FA4300290952 /* AppDelegate.swift in Sources */,
+				B119E0F32140FB5500290952 /* HistoryTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B119E0D12140FA4500290952 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B119E0DA2140FA4500290952 /* MySafariTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B119E0DC2140FA4500290952 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B119E0E52140FA4500290952 /* MySafariUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B119E0D72140FA4500290952 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B119E0C02140FA4300290952 /* MySafari */;
+			targetProxy = B119E0D62140FA4500290952 /* PBXContainerItemProxy */;
+		};
+		B119E0E22140FA4500290952 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B119E0C02140FA4300290952 /* MySafari */;
+			targetProxy = B119E0E12140FA4500290952 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B119E0C82140FA4300290952 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B119E0C92140FA4300290952 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B119E0CD2140FA4500290952 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B119E0CE2140FA4500290952 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B119E0E72140FA4600290952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B119E0E82140FA4600290952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B119E0EA2140FA4600290952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K5927H882B;
+				INFOPLIST_FILE = MySafari/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chrisz.MySafari;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B119E0EB2140FA4600290952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K5927H882B;
+				INFOPLIST_FILE = MySafari/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chrisz.MySafari;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B119E0ED2140FA4600290952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K5927H882B;
+				INFOPLIST_FILE = MySafariTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chrisz.MySafariTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MySafari.app/MySafari";
+			};
+			name = Debug;
+		};
+		B119E0EE2140FA4600290952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K5927H882B;
+				INFOPLIST_FILE = MySafariTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chrisz.MySafariTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MySafari.app/MySafari";
+			};
+			name = Release;
+		};
+		B119E0F02140FA4600290952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K5927H882B;
+				INFOPLIST_FILE = MySafariUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chrisz.MySafariUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MySafari;
+			};
+			name = Debug;
+		};
+		B119E0F12140FA4600290952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K5927H882B;
+				INFOPLIST_FILE = MySafariUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chrisz.MySafariUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MySafari;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B119E0BC2140FA4300290952 /* Build configuration list for PBXProject "MySafari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B119E0E72140FA4600290952 /* Debug */,
+				B119E0E82140FA4600290952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B119E0E92140FA4600290952 /* Build configuration list for PBXNativeTarget "MySafari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B119E0EA2140FA4600290952 /* Debug */,
+				B119E0EB2140FA4600290952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B119E0EC2140FA4600290952 /* Build configuration list for PBXNativeTarget "MySafariTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B119E0ED2140FA4600290952 /* Debug */,
+				B119E0EE2140FA4600290952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B119E0EF2140FA4600290952 /* Build configuration list for PBXNativeTarget "MySafariUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B119E0F02140FA4600290952 /* Debug */,
+				B119E0F12140FA4600290952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B119E0B92140FA4300290952 /* Project object */;
+}
